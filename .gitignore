@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+data/census-bureau.data
+data/census-bureau.columns
+data/census-bureau.data
+data/census-bureau.columns
