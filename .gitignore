@@ -209,3 +209,6 @@ data/census-bureau.data
 data/census-bureau.columns
 data/census-bureau.data
 data/census-bureau.columns
+data/X_preprocessed.csv
+data/census_cleaned.csv
+data/census-bureau.data
