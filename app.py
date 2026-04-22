@@ -79,6 +79,21 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<style>
+    section[data-testid="stSidebar"] {
+        min-width: 250px !important;
+        max-width: 250px !important;
+        transform: none !important;
+        visibility: visible !important;
+        display: block !important;
+    }
+    [data-testid="collapsedControl"] {
+        display: none !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 # ── load models ───────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_models():
